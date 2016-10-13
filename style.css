@@ -1,0 +1,62 @@
+<head>
+<style>
+
+body {
+    background-color: yellow;
+}
+
+h1 {
+
+}
+
+h3 {
+	color: yellow;
+	margin: auto;
+}
+
+p {
+	
+}
+
+header{
+	background-color: black;
+	float: top;
+	padding: 0;
+	width: 100%;
+	border-style: solid;
+	border-color: navy;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 10%;
+	height: 10%;
+}
+
+footer {
+	background-color: black;
+	color: white;
+    border-top:solid 1px #666;
+    bottom:0;
+    height:15px;
+    padding:5px;
+    position:fixed;
+    width:100%;
+    z-index:1000;
+
+}
+ nav{
+	list-style-type: none;
+	float: left;
+	margin: auto;
+	font-size: 150%;
+	font-style: 
+ }
+ 
+ section{
+	 position: center;
+	 margin: 100px;
+ }  
+</style>
+</head>
