@@ -1,27 +1,39 @@
 body {
-    background-color: yellow;
+    background-color: gray;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin: 0;
+	color: yellow;
 }
 
 h1 {
-
+	font-size: 300%;
+	text-align: center;
 }
 
-h3 {
-	color: yellow;
-	margin: auto;
+h2 {
+	text-align: center;
+	margin: 0;
+}
+
+p.sportschool{
+	font-size: 80%;
+	text-align: center;
 }
 
 p {
-	
+	font-size: 100%;
+	text-align: center;
 }
 
 header{
-	background-color: black;
+	background-color: #B0C4DE;
 	float: top;
 	padding: 0;
 	width: 100%;
-	border-style: solid;
-	border-color: navy;
+	margin: 0;	
+	border-bottom-style: solid;
+	border-bottom-color: navy;
+
 }
 
 img {
@@ -29,11 +41,11 @@ img {
 	margin: auto;
 	width: 10%;
 	height: 10%;
+	padding: 5px;
 }
 
 footer {
-	background-color: black;
-	color: white;
+	background-color: #B0C4DE;
     border-top:solid 1px #666;
     bottom:0;
     height:15px;
@@ -41,16 +53,37 @@ footer {
     position:fixed;
     width:100%;
     z-index:1000;
+	border-top: solid;
+	border-color: navy;
+	font-size: 80%;
 
 }
  nav{
 	list-style-type: none;
-	float: left;
-	margin: auto;
+	float: top;
 	font-size: 150%;
+	text-align: center;
+	color: blue;
+ }
+ 
+ a{
+	 color: blue;
  }
  
  section{
-	 position: center;
-	 margin: 100px;
+	 text-align: center;
+ }
+ 
+ article{
+	 text-align: center;
+ }
+ 
+ aside{
+	 text-align: center:
+ }
+ 
+ form{
+	 margin-top: 5%;
+	 text-align: center;
+	 display: block;
  }
